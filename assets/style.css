@@ -1,0 +1,131 @@
+body {
+    background-color: #2C2F33;
+    color: white;
+    font-family: 'system-ui', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+h6 {
+    text-align: center;
+    padding-bottom: 1%;
+    bottom: 1px;
+}
+p{
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+a {
+    color: #7289da;
+    text-decoration: none;
+}
+
+/* navigation bar */
+.page-header {
+    padding: 15px;
+    padding-top: 20px;
+    margin:0px
+}
+.nav-logo{
+    width: 100px
+}
+.top-nav {
+    text-align: right
+}
+
+.page-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden
+}
+.nav-logo{
+    float: left;
+    margin: auto
+}
+
+.page-header nav{float:right}
+.page-header ul{list-style-type:none;margin:0;padding:0;overflow:hidden}
+.page-header li {float:left;list-style-type:none}
+.page-header li a{display:block;color:white;text-align:center;padding:10px 16px;text-decoration:none}
+.page-header li a:hover{background-color:rgb(45,55,63);border-radius:12px}
+
+
+/* table colours */
+.public {
+    color:#23cf4e
+}
+.test {
+    color:#e78b01
+}
+.indev {
+    color:#778cff
+}
+.unavailable{
+    color:#8d8d8d
+}
+
+
+/* Services Table */
+.services{display:flex;justify-content:center}
+.service{width:40%;margin:5px}
+
+.publicly-available{background-color:rgb(48,176,46);padding:10px}
+.not-started{background-color:rgb(184,17,17);padding:10px}
+.private-beta{background-color:rgb(24,120,190);padding:10px}
+.in-development{background-color:rgb(201,103,44);padding:10px}
+
+.table-container {
+    padding: 30px;
+    background-position: center;
+    background-repeat:
+    no-repeat
+}
+.table-container h1,
+.table-container p,
+.table-container li,
+.table-container h2,
+.table-container h3,
+.table-container h4,
+.table-container h5 {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.table-container a {
+    color: #7289da
+}
+.table-container table {
+    border-collapse: collapse;
+    width: 60%;
+    font-size: 24px;
+    margin-left: 20%
+}
+.table-container td, th {
+    text-align: left;
+    padding: 15px;
+    border: 3px solid #000
+}
+.table-container th {
+    background-color: #111;
+    font-size: 28px
+}
+.table-container tr {
+    background-color: #222
+}
